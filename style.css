@@ -55,23 +55,63 @@ nav ul li a:hover {
 }
 
 #hero img {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
     border-radius: 8px;
 }
 
-#about {
-    padding: 20px;
-    background-color: #f4f4f4;
+#introduce {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: transparent;
     text-align: center;
+    color:#fff
 }
 
-#about h2 {
+#introduce h2 {
     font-size: 2em;
     margin-bottom: 10px;
 }
 
+#introduce p {
+    font-size: 1.2em;
+}
+
+#about {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: transparent;
+    text-align: left;
+    color:#fff
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;;
+}
+
 #about p {
+    font-size: 1.2em;
+}
+
+#info {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: transparent;
+    text-align: left;
+    color:#fff
+}
+
+#info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;;
+}
+
+#info h3 {
+    margin-bottom: -20px;;
+}
+
+#info li {
     font-size: 1.2em;
 }
 
