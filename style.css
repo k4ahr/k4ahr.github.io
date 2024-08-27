@@ -149,12 +149,31 @@ footer h2 {
     color: #ddd;
 }
 
+
+#linux {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#linux img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#linux p {
+    color: #fff;
+}
+
+
 @media (max-width: 768px) {
     body section {
         padding-left: 20px;
         padding-right: 20px;
     }
     #hero img {
+        max-width: 100%;
+    #linux img {
         max-width: 100%;
     }
 }
