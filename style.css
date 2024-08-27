@@ -127,6 +127,7 @@ nav ul li a:hover {
 
 footer {
     background-color: #333;
+    margin: 0;
     color: #fff;
     text-align: center;
     padding: 20px;
