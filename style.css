@@ -17,7 +17,13 @@ body section {
     background-color: transparent;
 }
 
+body section a {
+    color: #fff;
+}
 
+body section a:hover {
+    color: #ddd;
+}
 
 header {
     background-color: #333;
