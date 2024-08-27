@@ -19,7 +19,8 @@ body section {
 
 @media (max-width: 768px) {
     body section {
-        margin: 20px; /* Reduced margin for smaller screens */
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
