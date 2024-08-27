@@ -11,6 +11,12 @@ body {
     background-attachment: fixed; /* Keeps the background image fixed while scrolling */
 }
 
+body section {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: transparent;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -72,9 +78,6 @@ nav ul li a:hover {
 }
 
 #introduce {
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: transparent;
     text-align: center;
     color:#fff
 }
@@ -89,9 +92,6 @@ nav ul li a:hover {
 }
 
 #about {
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: transparent;
     text-align: left;
     color:#fff
 }
@@ -106,9 +106,6 @@ nav ul li a:hover {
 }
 
 #info {
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: transparent;
     text-align: left;
     color:#fff
 }
