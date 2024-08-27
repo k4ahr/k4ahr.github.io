@@ -156,7 +156,7 @@ footer h2 {
 }
 
 #linux img {
-    max-width: 40%;
+    max-width: 70%;
     height: auto;
     border-radius: 8px;
 }
@@ -173,6 +173,7 @@ footer h2 {
     }
     #hero img {
         max-width: 100%;
+    }
     #linux img {
         max-width: 100%;
     }
