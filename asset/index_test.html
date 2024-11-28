@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K4ahr | Home</title>
+    <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('header').innerHTML = data;
+                });
+
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('footer').innerHTML = data;
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="content">   
+        <header></header>
+
+        <section id="introduce">
+            <h2>Welcome to my website</h2>
+            <p>Kinda crazy when I started learning how to code HTML with CSS when I was 9, only for me to actually use it practically for the first time after almost 10 years, which is used to make this little website.</p>
+            <p>o(*￣▽￣*)ブ</p>
+        </section>
+
+        <section id="about">
+            <p>You can understand more about me <a href="about.html">at here</a></p>
+            <p>Other than that, be sure to check out other pages on the navigation bar!</p>
+        </section>
+
+        <section id="linux">
+            <img src="asset/osage_computer.jpg">
+            <p>Art by @NKNK_NGRMS</p>
+        </section>
+
+        <section id="about">
+            <h2>Have a Ted talk</h2>
+            <p>My Discord account: <a href="https://discord.com/users/745991584293584907"><i>k4ahr_</i></a></p>
+            <p>Email me: <a href="mailto:k4ahr@proton.me">k4ahr@proton.me</a></p>
+        </section>
+    </div>
+
+    <footer></footer>
+</body>
+</html>

@@ -187,6 +187,23 @@ footer h2 {
 }
 
 
+
+#button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#button img {
+    max-width: 88px;
+    height: auto;
+    border-radius: 0px;
+}
+
+#button p {
+    color: #fff;
+}
+
+
 @media (max-width: 768px) {
     body section {
         padding-left: 20px;

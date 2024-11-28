@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-	    <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>K4ahr | Home</title>
         <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
-
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch('header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('header').innerHTML = data;
+                    });
     
-<body>
-    <div class="content">   
-        <header>
-        <div class="header-container">
-            <h1><i>K4ahr</i></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="link.html">Link</a></li>
-                    <li><a href="wip.html">Blog</a></li>
-                    <li><a href="wip.html">Project</a></li>
-		        <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </div>
-        </header>
+                fetch('footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('footer').innerHTML = data;
+                    });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="content">   
+            <header></header>
 
 
 
@@ -53,17 +52,6 @@
         </section>
     </div>
 
-    <footer>
-        <h2>Connect with Me</h2>
-        <div class="social-links">
-            <a href="https://www.last.fm/user/K4ahr" target="_blank">Last.fm</a>
-            <a href="https://github.com/k4ahr" target="_blank">GitHub</a>
-            <a href="https://www.facebook.com/k4ahr" target="_blank">Facebook</a>
-            <a href="https://www.reddit.com/user/lmaoimhung/" target="_blank">Reddit</a>
-            <a href="https://www.youtube.com/@HwngDaoVuong" target="_blank">YouTube</a>
-            <a href="mailto:k4ahr@proton.me" target="_blank">Email</a>  
-        </div>
-	<p id="changelog">This website is open-source. View the <a href="https://github.com/k4ahr/k4ahr.github.io/commit/main">changelog</a> here</p>
-    </footer>
+    <footer></footer>
 </body>
 </html>
