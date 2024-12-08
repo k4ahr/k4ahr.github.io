@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>K4ahr | Home</title>
+        <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch('/header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('header').innerHTML = data;
+                    });
+    
+                fetch('/footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('footer').innerHTML = data;
+                    });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="content">   
+            <header></header>
+
+
+
+
+            <section id="post">
+                <h2>Using an iPod as the primary music listening option</h2>
+                <h3 id="date">2024, Dec 9</h3>
+                <p>There is a recent trend lately about using iPod - Apple infamous music device back in the 2000s, as alternative for most of music streaming services nowadays like Spotify or Apple Music. The <a href="https://www.reddit.com/r/ipod/comments/188gf5u/what_exactly_is_the_point_of_using_an_ipod/">medias</a> claiming that using a external device for music playing gives you many multiple advantages that related to distraction in working and ownership of the music that you listening to.</p>
+                <p>So I bought one for myself to checkout if all the hypes were real. In October I bought a second-hand iPod Classic 5 (aka iPod Video) from <a href="https://neyako.works">Neyako</a> for $50, which was a good deals at the momment since the demand for iPod was really high. The iPod has been replaced with a brand new battery, and modified with a brand new 120GB SDD.</a></p>
+                <img id="ipod1" src="ipod1.jpg" title="Image of the iPod when I recieved">
+                <p>After two months of using iPod (as the time this post is being writed), I can confirm that the hype was true. Using iPod does help me reducing distraction and procastination when comparing to listen to music on my smartphone, as I can more focus on most of my works. When using a phone, it can cause me to also have other unnecessary activities on my phone, whether it's browsing social media or anything else.</p>
+
+            </section>
+        </div>
+    <footer></footer>
+</body>
+</html>

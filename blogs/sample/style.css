@@ -9,7 +9,7 @@ body {
     padding: 0;
     color: #fff;
     line-height: 1.6;
-    background-image: url('asset/background.jpg'); /* Replace with your image path */
+    background-image: url('/asset/background.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -171,31 +171,8 @@ footer h2 {
 }                                                                                                                                                             #changelog a:hover {                                                               color: #ddd;                                                          
 }
 
-#linux {
-    text-align: center;
-    margin: 20px 0;
-}
+#
 
-#linux img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 8px;
-}
-
-#linux p {
-    color: #fff;
-}
-
-#my-button {
-    text-align: left;
-    margin: 20px 0;
-}
-
-#my-button img {
-    max-width: 88px;
-    height: auto;
-    border-radius: 0px;
-}
 
 #button {
     text-align: center;
@@ -226,21 +203,6 @@ footer h2 {
     }
 }
 
-#tools {
-    text-align: left;
-    color:#fff
-}
-
-#tools h2 {
-    font-size: 2em;
-    margin-bottom: 10px;;
-}
-
-#tools li {
-    font-size: 1.2em;
-    margin-left: 30px;;
-}
-
 #post {
     text-align: center;
     color:#fff
@@ -251,7 +213,7 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-#post h3 {
+#date {
     font-style:italic;
 }
 
