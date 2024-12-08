@@ -167,11 +167,7 @@ footer h2 {
     color: #ddd;
 }
 
-#changelog a {                                                                     color: #fff;                                                                  
-}                                                                                                                                                             #changelog a:hover {                                                               color: #ddd;                                                          
-}
 
-#
 
 
 #button {
@@ -213,7 +209,7 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-#date {
+#post h3 {
     font-style:italic;
 }
 
