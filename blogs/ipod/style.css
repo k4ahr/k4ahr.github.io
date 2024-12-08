@@ -167,7 +167,12 @@ footer h2 {
     color: #ddd;
 }
 
-
+#changelog a {
+    color: #fff;
+}                                                                                                                                                                                                                       
+#changelog a:hover {
+    color: #ddd;
+}
 
 
 #button {
