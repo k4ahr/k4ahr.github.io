@@ -242,7 +242,7 @@ footer h2 {
 }
 
 #post {
-    text-align: center;
+    text-align: left;
     color:#fff
 }
 
@@ -255,6 +255,6 @@ footer h2 {
     font-style:italic;
 }
 
-#post p {
-    font-size: 1.2em;
+#post li {
+    font-size: 1.5em;
 }
