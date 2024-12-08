@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>K4ahr | Home</title>
+        <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch('/header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('header').innerHTML = data;
+                    });
+    
+                fetch('/footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('footer').innerHTML = data;
+                    });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="content">   
+            <header></header>
+
+
+
+
+
+    <footer></footer>
+</body>
+</html>
