@@ -262,3 +262,10 @@ footer h2 {
     font-size: 1.5em;
 }
 
+#music_widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}

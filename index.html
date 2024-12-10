@@ -32,7 +32,7 @@
         <section id="introduce">
         <h2><i>"Even if it's meaningless, sometimes nice things happen."</i></h2>
         <p>Kinda crazy when I started learning how to code HTML with CSS when I was 9, only for me to actually use it practically for the first time after almost 10 years, which is used to make this little website.</p>
-	    <p>o(*￣▽￣*)ブ</p>
+	    <p>ᗜˬᗜ</p>
         </section>
 
         <section id="about">
@@ -51,6 +51,112 @@
         <p>Email me: <a href="mailto:k4ahr@proton.me">k4ahr@proton.me</a></p>
         </section>
     </div>
+
+
+    <section id="music_widget">
+        <style>
+    
+            #now-playing {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid #333;
+                border-radius: 10px;
+                background: #181818;
+                width: 800px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                overflow: hidden;
+            }
+    
+            #header {
+                background-color: #252525;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.1em;
+                border-bottom: 1px solid #333;
+            }
+    
+            #content {
+                display: flex;
+                align-items: center;
+                padding: 15px;
+            }
+    
+            #album-art {
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+                margin-right: 15px;
+            }
+    
+            #details {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .info {
+                margin: 5px 0;
+            }
+    
+            .info a {
+                color: #1db954;
+                text-decoration: none;
+            }
+    
+            .info a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    
+        <div id="now-playing">
+            <div id="header">K4ahr is/was listening to:</div>
+            <div id="content">
+                <img id="album-art" src="placeholder.png" alt="Album Art">
+                <div id="details">
+                    <div id="song-name" class="info">
+                        <a href="#" target="_blank">Song Name</a>
+                    </div>
+                    <div id="artist-name" class="info">Artist Name</div>
+                    <div id="album-name" class="info">Album Name</div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            async function fetchLastPlayedSong() {
+                const username = 'K4ahr';
+                const apiKey = '06ad86458637a9f40bf4adae89006bd7';
+                const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json`;
+    
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    const track = data.recenttracks.track[0];
+    
+                    // Update HTML
+                    document.getElementById('album-art').src = track.image[2]['#text'] || 'placeholder.png';
+                    const songNameElement = document.getElementById('song-name').querySelector('a');
+                    songNameElement.textContent = track.name || 'Unknown Song';
+                    songNameElement.href = track.url || '#';
+    
+                    document.getElementById('artist-name').textContent = track.artist['#text'] || 'Unknown Artist';
+                    document.getElementById('album-name').textContent = track.album['#text'] || 'Unknown Album';
+                } catch (error) {
+                    console.error('Error fetching song data:', error);
+                    document.getElementById('song-name').textContent = 'Error fetching song data';
+                }
+            }
+    
+            // Fetch song data on load
+            fetchLastPlayedSong();
+    
+            // Optionally refresh every 60 seconds
+            setInterval(fetchLastPlayedSong, 60000);
+        </script>
+    </section>
+    
+
 
     <footer></footer>
 </body>
