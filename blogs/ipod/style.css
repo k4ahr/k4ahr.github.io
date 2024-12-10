@@ -223,9 +223,23 @@ footer h2 {
 }
 
 #ipod1 {
-    width: 80%;
+    max-width: 30%;
 }
 
 #ipod2 {
-    width: 80%;
+    max-width: 30%;
+}
+
+
+@media (max-width: 768px) {
+    body section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #ipod1 {
+        max-width: 100%;
+    }
+    #ipod2 {
+        max-width: 100%;
+    }
 }
