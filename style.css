@@ -227,6 +227,9 @@ footer h2 {
     #linux img {
         max-width: 100%;
     }
+    #introduce {
+	font-size: 80%;
+    }
 }
 
 #tools {
