@@ -9,13 +9,9 @@ body {
     padding: 0;
     color: #fff;
     line-height: 1.6;
-    background-image: url('/asset/background.jpg'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
     display: flex;
     flex-direction: column;
+    background-color: #008080; 
 }
 
 .content {
@@ -30,7 +26,7 @@ body section {
 }
 
 body section a {
-    color: #fff;
+    color: #fff
 }
 
 body section a:hover {
@@ -38,7 +34,7 @@ body section a:hover {
 }
 
 header {
-    background-color: #333;
+    background-color: #000080;
     color: #fff;
     padding: 10px 20px;
 }
@@ -144,7 +140,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000080;
     color: #fff;
     text-align: center;
     padding: 20px;

@@ -9,13 +9,9 @@ body {
     padding: 0;
     color: #fff;
     line-height: 1.6;
-    background-image: url('asset/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    background-color: #008080; 
 }
 
 .content {
@@ -30,7 +26,7 @@ body section {
 }
 
 body section a {
-    color: #fff;
+    color: #fff
 }
 
 body section a:hover {
@@ -38,7 +34,7 @@ body section a:hover {
 }
 
 header {
-    background-color: #333;
+    background-color: #000080;
     color: #fff;
     padding: 10px 20px;
 }
@@ -90,16 +86,13 @@ nav ul li a:hover {
 #hero img {
     max-width: 60%;
     height: auto;
-    border-radius: 8px;
+    
 }
 
-#hero p {
-    color: #fff;
-}
+
 
 #introduce {
     text-align: center;
-    color:#fff
 }
 
 #introduce h2 {
@@ -113,7 +106,6 @@ nav ul li a:hover {
 
 #about {
     text-align: left;
-    color:#fff
 }
 
 #about h2 {
@@ -127,7 +119,6 @@ nav ul li a:hover {
 
 #info {
     text-align: left;
-    color:#fff
 }
 
 #info h2 {
@@ -144,7 +135,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000080;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -182,7 +173,7 @@ footer h2 {
 #linux img {
     max-width: 30%;
     height: auto;
-    border-radius: 8px;
+    
 }
 
 #linux p {
@@ -197,7 +188,7 @@ footer h2 {
 #my-button img {
     max-width: 88px;
     height: auto;
-    border-radius: 0px;
+    
 }
 
 #button {
@@ -208,7 +199,7 @@ footer h2 {
 #button img {
     max-width: 88px;
     height: auto;
-    border-radius: 0px;
+    
 }
 
 #button p {
@@ -242,9 +233,18 @@ footer h2 {
     margin-bottom: 10px;;
 }
 
+
 #tools li {
     font-size: 1.2em;
-    margin-left: 30px;;
+    margin-left: 30px;
+}
+
+#server li {
+    margin-left: 30px;
+}
+
+#friends li {
+    margin-left: 30px;
 }
 
 #post {
