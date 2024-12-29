@@ -11,7 +11,11 @@ body {
     line-height: 1.6;
     display: flex;
     flex-direction: column;
-    background-color: #008080; 
+    background-image: url('/asset/train.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 .content {
@@ -26,7 +30,7 @@ body section {
 }
 
 body section a {
-    color: #fff
+    color: #fff;
 }
 
 body section a:hover {
@@ -34,7 +38,7 @@ body section a:hover {
 }
 
 header {
-    background-color: #000080;
+    background-color: #333;
     color: #fff;
     padding: 10px 20px;
 }
@@ -135,7 +139,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #000080;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
