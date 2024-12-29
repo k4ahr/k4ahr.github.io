@@ -211,20 +211,7 @@ footer h2 {
 }
 
 
-@media (max-width: 768px) {
-    body section {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #hero img {
-        max-width: 100%;
-    }
-    #linux img {
-        max-width: 100%;
-    }
-    #introduce {
-	font-size: 80%;
-    }
+
 }
 
 #tools {
@@ -269,6 +256,10 @@ footer h2 {
     font-size: 1.5em;
 }
 
+#posts li {
+    font-size: 1.5em;
+}
+
 #music_widget {
     display: flex;
     justify-content: center;
@@ -276,3 +267,19 @@ footer h2 {
     padding-left: 50px;
     margin-bottom: 50px;
 }
+
+
+@media (max-width: 768px) {
+    body section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #hero img {
+        max-width: 100%;
+    }
+    #linux img {
+        max-width: 100%;
+    }
+    #posts li {
+        font-size: 0.9em;
+    }
