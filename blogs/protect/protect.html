@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>K4ahr | Home</title>
+        <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch('/header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('header').innerHTML = data;
+                    });
+    
+                fetch('/footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector('footer').innerHTML = data;
+                    });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="content">   
+            <header></header>
+
+
+
+
+            <section id="post">
+                <h2>Using an iPod as the primary music listening option</h2>
+                <h3 id="date">2024, Dec 9</h3>
+                <p>What you have seen of the Internet is most likely just a little tip of the iceberg, so sometimes you just have to protect yourself from it every time you're online on the web. I'm going to give you some guides, from the basic to the most advanced method of protecting you from the obscure internet.</p>
+                <h3>Bare minimum: Firewall</h3>
+                <p>Firewall is the first line of defense for your computer, it's like a gatekeeper that filters the incoming and outgoing traffic of your computer. Most of the operating systems have a built-in firewall, like Windows Firewall for Windows, or UFW for Linux, which are all preconfigured basic level of firewall that's capable of denying unauthorized access by filtering network traffic and blocking malicious content. You can also use third-party firewall software, like GlassWire or ZoneAlarm.</p>
+                <p>Most firewalls are enabled by default, but if you're wondering if it's enabled on your machine or not, here's a quick overview:</p>
+                <img src="win_fw.png" title="Windows Firewall settings">
+                <p>Windows: Go to Control Panel > System and Security > Windows Defender Firewall</p>
+                <img src="macos_fw.PNG" title="MacOS Firewall settings">
+                <p>MacOS: Go to System Preferences > Security & Privacy > Firewall</p>
+                <img src="linux_fw.jpg" title="Linux Firewall settings">
+                <p>Linux: Open a terminal and type <code>sudo ufw status</code></p>
+                <h3>Intermediate : Software and Security up-to-date</h3>
+                <p>Keeping your software and security up-to-date is the next step to protect yourself from the obscure internet. Most of the time, software updates are released to fix bugs and vulnerabilities that can be exploited by hackers. It's important to keep your software up-to-date, especially your operating system, web browser, and antivirus software.</p>
+                <p>Most of the operating systems have an automatic update feature, so you don't have to worry about updating your system manually. For Windows, you can go to Settings > Update & Security > Windows Update, and for MacOS, you can go to System Preferences > Software Update.</p>
+                <p>This is also one of the main reasons why you should not use any end-of-support (EOS) operating system such as Windows 7 or lower, as most of them do not have up-to-date security patches and are vulnerable to attacks.</p>
+                <img src="update.png" title="Windows Update settings">
+                <h3>Advanced: Adblock and "host" file</h3>
+                <p>Ad blockers are browser extensions that block ads on websites, which can also block malicious content and trackers. There are many ad blockers available, but for my personal reference, I would recommend you to use <a href="https://ublockorigin.com/">uBlock Origin</a>, although Chrome's newest Manifest v3 update may affect its functionality (everyone thanks Google !!).</p>
+                <p>Another method is to use the "host" file to block malicious websites. The "host" file is a text file that maps hostnames to IP addresses, and you can use it to block access to certain websites by redirecting them to a non-existent IP address. You can find the "host" file in the following directory:</p>
+                <p>Windows: <code>C:\Windows\System32\drivers\etc\hosts</code> (You may have to open it using any text editor with administrator privilege)</p>
+                <img src="host.png" title="Host file settings">
+                <p>I recommend to check out <a href="https://someonewhocares.org/hosts/">someonewhocares's host file</a>, which contains many of dangerous websites and trackers. They also have a short guide for installation in other OS such as macos and Linux.</p>
+                <h3>Optional: AdGuard Home</h3>
+                <p><a href="https://github.com/AdguardTeam/AdGuardHome">AdGuard Home</a> is a network-wide software for blocking ads and tracking. After you set it up, it'll cover ALL your home devices, and you don't need any client-side software for that. AdGuard Home is a standalone server that runs on your local network, and it acts as a DNS server that filters out ads and trackers. It's a bit more advanced than using an ad blocker, which required a local VPS like a homelab, a Rasberry Pi, or a router that has firmware support such as <a href="https://openwrt.org/">OpenWrt</a>, but it's worth it if you want to protect all your devices from ads and trackers.</p>
+                <img src="adguard.png" title="MY AdGuard Home settings">
+                <h3>Conclusion</h3>
+                <p>Protecting yourself from the obscure internet is important, as the Internet is a vast place with many dangers. By following these guides, you can protect yourself from most of the threats that are lurking on the web. Remember, it's better to be safe than sorry, and trust me, you would never want your data being exposed on the web.</p>
+                <img src="nneighborhoodsmall.gif"> <a href="https://tinyurl.com/4zfrsv8y"><img src="virusalert.gif"></a>
+                <p></p>
+            </section>
+        </div>
+    <footer></footer>
+</body>
+</html>
