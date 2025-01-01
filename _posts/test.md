@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "test"
-author: k4ahr
+title: "Test Post"
 date: 2024-01-01
-categories: [CTF]
-tags: [writeups]
 ---
+
 
 # :This was a triumph 
 
