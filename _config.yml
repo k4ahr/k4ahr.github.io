@@ -46,7 +46,7 @@ jekyll-archives:
     tag: /tags/:name/
 
 # Theme and Plugins
-theme: jekyll-theme-chirpy
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
