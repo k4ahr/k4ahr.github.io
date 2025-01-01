@@ -1,5 +1,4 @@
 title: K4AHR
-theme: minima
 lang: en
 timezone: Asia/Ho_Chi_Minh
 
@@ -45,3 +44,133 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+
+theme: jekyll-theme-chirpy
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-include-cache
+  - jekyll-redirect-from
+  - jekyll-toc
+  - jemoji
+  - jekyll-mentions
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-compose
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+::contentReference[oaicite:0]{index=0}
+ 
