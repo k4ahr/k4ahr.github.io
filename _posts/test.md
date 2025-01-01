@@ -2,7 +2,7 @@
 layout: post
 title: "test"
 author: k4ahr
-date: 2023-07-15 16:22:00 +0700
+date: 2024-01-01
 categories: [CTF]
 tags: [writeups]
 ---
