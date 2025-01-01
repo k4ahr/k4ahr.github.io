@@ -1,4 +1,47 @@
-title: K4AHR Blog
-description: A blog using Jekyll and Markdown
-theme: minima
-markdown: kramdown
+title: K4AHR
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Ho_Chi_Minh
+
+# Author Information
+social:
+  name: K4AHR
+  email: example@example.com
+  links:
+    - https://github.com/K4AHR
+
+# Blog Settings
+paginate: 10
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /posts/:title/
+
+# Markdown and Syntax Highlighting
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Excluded Files/Folders
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - package*.json
+  - tools
+  - docs
+
+# Categories and Tags
+jekyll-archives:
+  enabled: [categories, tags]
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
